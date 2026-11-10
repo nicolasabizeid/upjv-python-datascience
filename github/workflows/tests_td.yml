@@ -1,0 +1,36 @@
+# @title 🔧 Exercice — Configurer GitHub Actions
+# ================================================================
+#  EXERCICE — Mettre en place les tests automatiques     [ 4 étapes ]
+# ================================================================
+#
+# À partir du TD03, chaque push sur votre branche dev_tdXX
+# déclenchera automatiquement la vérification de votre notebook.
+# Cette configuration se fait UNE SEULE FOIS maintenant.
+#
+# ----------------------------------------------------------------
+# Étape 1/4 — Récupérer le fichier de configuration
+# ----------------------------------------------------------------
+# Ouvrez le fichier brut du dépôt du cours dans un nouvel onglet :
+#   https://raw.githubusercontent.com/Maxencegu/python-datascience-l3/main/templates/tests/tests_td.yml
+# Sélectionnez tout (Ctrl+A) puis copiez (Ctrl+C)
+#
+# ----------------------------------------------------------------
+# Étape 2/4 — Créer le fichier dans votre dépôt
+# ----------------------------------------------------------------
+# Dans votre dépôt upjv-python-datascience :
+#   → Add file → Create new file
+#   → Dans le champ de nom, tapez exactement :
+#       .github/workflows/tests_td.yml
+#     (GitHub crée automatiquement les dossiers intermédiaires)
+#   → Collez le contenu dans la zone d'édition
+#
+# ----------------------------------------------------------------
+# Étape 3/4 — Commiter
+# ----------------------------------------------------------------
+# Message de commit : Add GitHub Actions workflow
+#   → bouton vert "Commit changes...", puis "Commit changes" dans la fenêtre
+#
+# ----------------------------------------------------------------
+# Étape 4/4 — Confirmer ici puis lancer la vérification
+# ----------------------------------------------------------------
+actions_configurees = TRUE
